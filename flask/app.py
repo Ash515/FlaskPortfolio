@@ -18,4 +18,5 @@ def index():
         form.insert({'name':name,'email':email,'message':message})
         return "<h1>sent successfully!</h1>"
 if __name__=='__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
