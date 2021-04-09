@@ -1,0 +1,1053 @@
+body{
+    font-family: Georgia;
+    font-size: 12px;
+    font-display: flex;
+}
+.main{
+	background-image: url("./images/pro.png");
+    background-position:cover;
+    padding-bottom:50px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-left:0px;
+	font-size:16px;
+}
+.headings{
+	padding-bottom: 0px;
+	padding-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+ul li a:hover{
+    background-color:red;
+    color:#000;
+}
+ul li a {
+  text-decoration:none;
+  color:#fff;
+  padding:5px 20px;
+  border:1px solid #fff;
+  transition:0.6s ease;
+  }
+
+ul{
+  list-style-type:none;
+  float:center;
+  margin-top:25px;
+}
+ul li{
+  display:inline-block;
+}
+ul li a {
+  text-decoration:none;
+  color:#fff;
+  padding:5px 20px;
+  border:1px solid #fff;
+  transition:0.6s ease;
+  }
+ul li a:hover{
+    background-color:white;
+    justify-content: space-between;
+    color:#000;
+    }
+.hash{
+  font-size:16px;
+  position: absolute;
+  padding-left:100%;
+  padding-top:20px;
+  color:#8bf726;
+  transform: translate(-50%, -50%);
+}
+.about{
+	background-image:url("./images/overlay.jpg");
+	background-position:cover;
+	padding-top: 10px;
+	padding-bottom:10px;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quote{
+padding-top:20px;
+}
+.wrapper{
+	padding-top:100px;
+}
+.main span:before{
+	content:'';
+	animation:animate infinite 8s;
+    color:white;
+}
+.typewriter h1 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	typing 3.5s steps(40, end),
+	blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+  }
+@keyframes animate{
+	0%{
+		content:'Full Stack Web Developer';
+	}
+	20%{
+		content:'Open Source Enthusiast';
+
+	}
+	40%{
+		content:'Digital Marketer';
+
+	}
+	60%{
+		content:'Content Writer';
+
+	}
+	80%{
+		content:'Blogger';
+
+	}
+	100%{
+		content:'Public speaker';
+	}
+}
+
+
+/* High lights */
+
+.Highlights{
+	padding-top: 50px;
+	font-size: 16px;
+	background-color:#f1b76ae0;
+}
+.xop-section {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.xop-grid:after {
+	clear: both;
+}
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+.xop-grid li{
+	width:400px;
+	height: 400.8px;
+	display: inline-block;
+	margin: 20px;
+}
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius:5px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+.xop-box:hover {
+	transform: scale(1.05); 
+	background-color:white;
+	
+}
+.xop-img-1 {
+	background-image:linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/pythonpp.png");
+}
+.xop-img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/ccpp.png");
+}
+.xop-img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/uaceitpp.png");
+}
+.xop-img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/stack.png");
+}
+.xop-img-6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/pitpp.png");
+}
+.xop-img-5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/skillenzapp.png");
+}
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	padding-top:50px;
+}
+.xop-info h3 {
+	font-family: monospace;
+	font-weight: 400;
+	color:white;
+	font-size: 18px;
+	margin: 0 30px;
+	padding: 250px 50px 0px 50px;
+	line-height: 1.5;
+}
+
+/*Education*/
+.education{
+    background-color: #FFF0F5;
+	padding-top:50px;
+	padding-bottom:100px;
+	font-size: 16px;
+}
+.college{
+	font-size: 22px;
+	font-family:timesnewroman;
+    color:black;
+}
+#clgactivity{
+	font-size: 18px;
+	font-family:times new roman;
+}
+.experience{
+	padding-top:0px;
+	padding-bottom:50px;
+	color:#8B0000;
+	font-size: 16px;
+}
+.more{
+	display:block;
+	block-size: 50px;
+	background-color:#000000;
+	color:white;
+	margin-top:0px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	margin-left: 130px;
+	text-decoration: none;
+}
+#text{
+	padding-top:12px;
+}
+
+/*Awards and activities*/
+.honors{
+	background-color:#322944;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	
+}
+.awards{
+	padding-bottom: 40px;
+
+}
+.ashwinimg{   width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica", sans-serif;
+}
+.mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+.slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+}
+/* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active,
+      .dot:hover {
+        background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+
+/*Projects */
+.projects{
+	font-size: 18px;
+	padding-top: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.xop-section3 {
+	max-width: 1600px;
+	margin:10px 0px 0px 0px;
+	background-color: #0d0d1fe0;
+
+}
+.xop-grid3 {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.xop-grid3:after {
+	clear: both;
+}
+.xop-grid3:after, .xop-box3:before {
+	content: '';
+	display: table;
+}
+.xop-grid3 li{
+	width:300px;
+	height: 300px;
+	display: inline-block;
+	margin: 20px;
+}
+.xop-box3 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius:5px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+.xop-box3:hover {
+	transform: scale(1.05); 
+}
+.xop-imgg-1 {
+	background-image:linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/vce.png");
+}
+.xop-imgg-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/smc.png");
+}
+.xop-imgg-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/codersplot.png");
+}
+.xop-imgg-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/sms.png");
+}
+.xop-imgg-5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/patient.png");
+}
+.xop-imgg-6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/medico.png");
+}
+.xop-imgg-7 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/crime.png");
+}
+.xop-imgg-8 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url("./images/esee.png");
+}
+.xop-info3 {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	padding-top:50px;
+}
+.xop-info3 h3 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color:white;
+	font-size: 18px;
+	margin: 100px 50px 20px 50px;
+	line-height: 1.5;
+}
+.github{
+	display:block;
+	block-size:50px;
+	background-color:#000000;
+	color:white;
+	margin:10px 0px 10px 0px ;
+	text-decoration: none;
+}
+.github:hover{
+		background-color:white;
+		color:black;
+		transform: scale(1.05);
+	}
+.skill{
+	padding-top:20px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+.column {
+  float: left;
+}
+.left {
+  width: 25%;
+}
+.right {
+  width: 75%;
+}
+.skillfont{
+	font-size:18px;
+}
+@media screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+  }
+}
+.row{
+	background-color: #333;
+	color:#fff;
+	font-family: Roboto;
+}
+ 
+.skill1{
+	width: 500px;
+	margin:50px auto 0;
+	padding:10px;
+}
+.skill1 li{
+	position: relative;
+	list-style: none;
+	margin: 50px 0;
+	font-weight: 100px;
+	text-transform: uppercase;
+}
+.skill1 li:before{
+	content: '';
+	position: absolute;
+	top:55px;
+	left: 0;
+	width:100%;
+	height: 15px;
+	background-color: rgba(54, 126, 223, .5);
+	border-radius: 1000px;
+}
+.skill1 li:after{
+	content: '';
+	position: absolute;
+	top: 55px;
+	left: 0;
+	width:0%;
+	height: 15px;
+	background-color: rgba(54, 126, 223, 1);
+	border-radius: 1000px;
+	animation-duration:.7s;
+	animation-timing-function:  ease;
+	animation-fill-mode: forwards;
+}
+.skill1 li.prblmsolving:after{
+  animation-name:prblmsolving;
+}
+@keyframes prblmsolving{
+	to{
+		width: 97%;
+	}
+}
+.skill1 li.webdevf:after{
+  animation-name: webdevf;
+}
+@keyframes webdevf{
+	to{
+		width: 92%;
+	}
+}
+.skill1 li.webdevb:after{
+  animation-name: webdevf;
+}
+@keyframes webdevf{
+	to{
+		width: 91%;
+	}
+}
+.skill1 li.digital:after{
+  animation-name: digital;
+}
+@keyframes digital{
+	to{
+		width: 95%;
+	}
+}
+.skill1 li.Database:after{
+  animation-name: Database;
+}
+@keyframes Database{
+	to{
+		width: 96%;
+	}
+}
+.skill1 li.os:after{
+  animation-name: os;
+}
+@keyframes os{
+	to{
+		width: 88%;
+	}
+}
+.skill1 li.Tools:after{
+  animation-name: Tools;
+}
+@keyframes Tools{
+	to{
+		width: 100%;
+	}
+}
+.skill1 li.tp:after{
+  animation-name: tp;
+}
+@keyframes tp{
+	to{
+		width: 100%;
+	}
+}
+.skill1 li.pb:after{
+  animation-name: pb;
+}
+@keyframes pb{
+	to{
+		width: 100%;
+	}
+}
+.hack{
+	font-size: 20px;
+	padding-top: 100px;
+	text-decoration: none;
+	text-decoration: none;
+}
+#font{
+	font-size: 16px;
+	padding-top: 10px;
+
+}
+#link{
+	
+	font-size: 16px;
+	padding-top: 10px;
+}
+.skill{
+	padding-top: 50px;
+}
+.certificate{
+	display:block;
+	block-size:50px;
+	background-color:#000000;
+	color:white;
+	margin-top:50px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.journals{
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.xop-scroll{
+	background-color: #2F4F4F;
+}
+.xop-section1 {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+.xop-grid1{
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.xop-grid1:after {
+	clear: both;
+}
+.xop-grid1:after, .xop-box1:before {
+	content: '';
+	display: table;
+}
+.xop-grid1 li{
+	width:400px;
+	height: 400.8px;
+	display: inline-block;
+	margin: 20px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.xop-box1 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    
+}
+.xop-info1{
+	background-color: white;
+}
+.xop-info1 h3{
+    font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color:black;
+	font-size: 18px;
+	margin: 0 30px;
+	padding:20px 50px 0px 0px;
+	line-height: 1.5;
+}
+.xop-info1 p{
+	font-family:'Pacifico', cursive;
+	color:black;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 13px;
+	
+}
+.article{
+	color:#333;
+}
+.medium{
+	display:block;
+	block-size:50px;
+	background-color:indigo;
+	color:white;
+	margin-top:50px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+.skillfont{
+	font-size: 18px;
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+ }
+.sw {width: 100%; background-color: #4CAF50;} /* Green */
+.web {width: 100%; background-color: #2196F3;} /* Blue */
+.ml{width: 100%; background-color: #f44336;} /* Red */
+.dm {width: 100%; background-color: #00008B;} /* Dark Grey */
+.db{width: 100%; background-color: #ADFF2F;} /* Green */
+.os {width: 95%; background-color: #F08080;} /* Green */
+.tool {width: 100%; background-color: #556B2F;} /* Green */
+.tm {width: 95%; background-color: #D8BFD8;} /* Green */
+.blog {width: 95%; background-color: #000080;} /* Green */
+
+.linkedin{
+	display:block;
+	block-size:50px;
+	background-color:#000000;
+	color:white;
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.contact{
+	margin:0;
+	padding-bottom: 50px;
+	text-align: center;
+	background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("./images/bridge.jpg");
+	background-size:  cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+.contact-title{
+	margin-top:50px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1{
+font-size: 32px;
+line-height: 10px;
+padding-top: 30px;
+}
+.contact-title h2{
+	font-size: 16px;
+}
+form{
+	margin-top: 50px;
+	transition:all 4s ease-in-out; 
+}
+.form-control{
+	width: 600px;
+	background:transparent;
+	border:none;
+	outline: none;
+	border-bottom:1px solid gray;
+	color:#fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+
+}
+form .submit{
+	background:#ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+.atlast{
+	padding-top: 10px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color:  #474e5d;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: white;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: white;
+	border: 4px solid #FF9F55;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+	left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+	left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid white;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid white;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+	left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+	padding: 20px 30px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+	/* Place the timelime to the left */
+	.timeline::after {
+	left: 31px;
+	}
+	
+	/* Full-width containers */
+	.container {
+	width: 100%;
+	padding-left: 70px;
+	padding-right: 25px;
+	}
+	
+	/* Make sure that all arrows are pointing leftwards */
+	.container::before {
+	left: 60px;
+	border: medium solid white;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent white transparent transparent;
+	}
+  
+	/* Make sure all circles are at the same spot */
+	.left::after, .right::after {
+	left: 15px;
+	}
+	
+	/* Make all right containers behave like the left ones */
+	.right {
+	left: 0%;
+	}
+  }
+.xop-info1 h2{
+	font-family:cursive;
+}
+.blogs{
+	padding-top: 10px;
+}
+#mediumicon{
+margin-left:10px;
+}
+#githubicon{
+	margin-left:10px;
+}
+#twittericon{
+	margin-left:10px;
+}
+.follow{
+   font-family:cursive;
+   color:white;
+   font-size: 20px;
+
+}
+.madeby{
+	margin-top: 30px;
+	color:white;
+	font-size: 15px;
+	font-family: cursive;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(11, 17, 63, 0.877);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  
+}
+#myBtn:hover{
+	background-color: #2196F3;
+	color:white;
+}
+.facebook{
+	font-size: 30px;
+	color:magenta;
+}
+.twitter{
+	margin-left: 10px;
+	font-size: 30px;
+	color:violet;
+}
+.github1{
+	margin-left: 10px;
+	font-size: 30px;
+	color:black;
+}
+.linkedin1{
+	margin-left: 10px;
+	font-size: 30px;
+	color:blue;
+}
+.youtube{
+	margin-left: 10px;
+	font-size: 30px;
+	color:red;
+}
+.blogging{
+	margin-left: 10px;
+	font-size: 30px;
+	color:maroon;
+}
+.madeby{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
